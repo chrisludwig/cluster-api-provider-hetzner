@@ -46,7 +46,7 @@ help: ## Display this help.
 BUILD_IN_CONTAINER ?= true
 
 # ensure you run `make ci` after changing this
-BUILDER_IMAGE_VERSION := 1.0.7
+BUILDER_IMAGE_VERSION := 1.0.8
 
 # Boiler plate for building Docker containers.
 IMAGE_PREFIX ?= ghcr.io/syself
